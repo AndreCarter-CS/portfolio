@@ -12,21 +12,21 @@ exports.createPages = async ({ actions }) => {
 
   createPage({
     path: "/about",
-    component: require.resolve("./src/components/about.js"),
+    component: require.resolve("./src/pages/about.js"),
     context: {},
     defer: true,
   });
 
   createPage({
     path: "/timeline",
-    component: require.resolve("./src/components/timeline.js"),
+    component: require.resolve("./src/pages/timeline.js"),
     context: {},
     defer: true,
   });
 
   createPage({
     path: "/projects",
-    component: require.resolve("./src/components/projects.js"),
+    component: require.resolve("./src/pages/projects.js"),
     context: {},
     defer: true,
   });
