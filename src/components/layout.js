@@ -6,11 +6,13 @@ import  * as styles from "../styles/global.module.css";
 
 const Layout = ({ children }) => {
   return (
-    <div className={styles.layout}>
+    <React.Fragment>
       <Navbar />
+      <div className={styles.layout}>
         <main id="main-content">{children}</main>
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </React.Fragment>
   )
 }
 
