@@ -9,10 +9,25 @@
  */
 exports.createPages = async ({ actions }) => {
   const { createPage } = actions
+
   createPage({
-    path: "/using-dsg",
-    component: require.resolve("./src/templates/using-dsg.js"),
+    path: "/about",
+    component: require.resolve("./src/components/about.js"),
     context: {},
     defer: true,
-  })
+  });
+
+  createPage({
+    path: "/timeline",
+    component: require.resolve("./src/components/timeline.js"),
+    context: {},
+    defer: true,
+  });
+
+  createPage({
+    path: "/projects",
+    component: require.resolve("./src/components/projects.js"),
+    context: {},
+    defer: true,
+  });
 }
