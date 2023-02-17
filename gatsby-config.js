@@ -30,7 +30,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Andre Carter`,
-        short_name: `Andre`,
+        short_name: `Andre Carter`,
         start_url: `/`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website

@@ -18,8 +18,8 @@ exports.createPages = async ({ actions }) => {
   });
 
   createPage({
-    path: "/timeline",
-    component: require.resolve("./src/pages/timeline.js"),
+    path: "/experience",
+    component: require.resolve("./src/pages/experience.js"),
     context: {},
     defer: true,
   });
