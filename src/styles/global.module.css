@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 
+/* base styles */
 * {
   margin: 0;
   padding-left: 2px;
@@ -48,4 +49,9 @@ footer p{
   text-align: center;
   color: #bbb;
   margin: 40px auto;
+}
+
+/* flex container */
+.flexContainer {
+  display: flex;
 }
