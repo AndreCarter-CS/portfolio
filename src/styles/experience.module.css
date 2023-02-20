@@ -1,0 +1,26 @@
+.company {
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.companyName {
+    margin-top: 10px;
+}
+
+.subtext {
+    color: #d1d1d1;
+    font-weight: bold;
+}
+
+.role {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+.descriptionLine {
+    margin-top: 5px;
+}
