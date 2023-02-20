@@ -110,7 +110,7 @@ const Timeline = () => (
       </div>
     </div>
 
-    {/* Vector */}
+    {/* Vector Marketing */}
     <div className={styles.company}>
       <h2 className={styles.companyName}>Vector Marketing</h2>
 

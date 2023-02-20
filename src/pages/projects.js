@@ -6,7 +6,14 @@ import Seo from "../components/seo"
 const Projects = () => (
   <Layout>
     <h1>Projects</h1>
-    <p>Welcome to Projects</p>
+    <h2>Youlama</h2>
+    <p>Coming Soon...</p>
+
+    <h2>Restaurant Saviors</h2>
+    <p>Coming Soon...</p>
+
+    <h2>Carter & Maldonado Consulting Group</h2>
+    <p>Coming Soon...</p>
   </Layout>
 )
 
