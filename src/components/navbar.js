@@ -5,7 +5,7 @@ const Navbar = ({ siteTitle }) => (
   <nav>
     <Link to="/projects">Projects</Link>
     <Link to="/experience">Experience</Link>
-    <Link to="/about">About Me</Link>
+    <Link to="/about">About</Link>
     <Link to="/">Home</Link>
   </nav>
 )
