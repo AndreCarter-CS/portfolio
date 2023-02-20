@@ -55,3 +55,9 @@ footer p{
 .flexContainer {
   display: flex;
 }
+
+@media screen and (max-width: 800px) {
+  .flexContainer {
+    display: block;
+  }
+}

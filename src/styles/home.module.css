@@ -32,3 +32,22 @@
 .highlighted {
     box-shadow: inset 0 -2.5rem 0 #c00076;
 }
+
+.main {
+  flex: 3;
+}
+
+.mainImage {
+  flex: 3;
+}
+
+@media screen and (max-width: 800px) {
+  .main {
+    padding-right: 20px;
+  }
+
+  .mainImage {
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+}

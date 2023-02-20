@@ -1,0 +1,19 @@
+.main {
+    flex: 3;
+}
+
+.profilePicture {
+    flex: 3;
+    padding-left: 40px;
+}
+
+@media screen and (max-width: 800px) {
+    .main {
+        padding-right: 20px;
+    }
+
+    .profilePicture {
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+}

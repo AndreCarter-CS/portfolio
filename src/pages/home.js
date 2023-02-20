@@ -1,12 +1,12 @@
 import React from "react";
-import * as globalStyles from "../styles/global.module.css";
+import * as global from "../styles/global.module.css";
 import * as styles from "../styles/home.module.css";
 import { StaticImage } from "gatsby-plugin-image";
 
 const Home = () => {
   return (
-    <div id="home" className={globalStyles.flexContainer}>
-      <div style={{ flex: 3 }}>
+    <div id="home" className={global.flexContainer}>
+      <div className={styles.main}>
         <h1 className={styles.title}>
           {"Hello "}
           <span role="img" aria-label="emoji">
@@ -21,7 +21,7 @@ const Home = () => {
         </h2>
         <div>{"Software Engineer. Based in Palm Coast."}</div>
       </div>
-      <div style={{ flex: 3 }}>
+      <div className={styles.mainImage}>
         <StaticImage 
           src="../images/andre.jpeg"
           alt="Andre Carter" 
