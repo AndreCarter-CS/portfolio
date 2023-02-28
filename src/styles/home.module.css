@@ -41,6 +41,11 @@
   flex: 3;
 }
 
+.resumeContainer {
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
 .resumeDownload {
   border: 1px solid #fff;
   background: transparent !important;
