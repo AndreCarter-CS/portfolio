@@ -41,6 +41,12 @@
   flex: 3;
 }
 
+.resumeDownload {
+  border: 1px solid #fff;
+  background: transparent !important;
+  padding: 10px;
+}
+
 @media screen and (max-width: 800px) {
   .main {
     padding-right: 20px;

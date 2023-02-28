@@ -34,6 +34,8 @@ const Timeline = () => (
       </div>
     </div>
 
+    <hr />
+
     {/* Carter Solutions */}
     <div className={styles.company}>
       <h2 className={styles.companyName}>Carter Solutions, Inc.</h2>
@@ -109,6 +111,8 @@ const Timeline = () => (
         </div>
       </div>
     </div>
+
+    <hr />
 
     {/* Vector Marketing */}
     <div className={styles.company}>

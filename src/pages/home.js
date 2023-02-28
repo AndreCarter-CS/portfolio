@@ -19,7 +19,12 @@ const Home = () => {
           {"I build and design "}
           <span className={styles.highlighted}>{"things for the web."}</span>
         </h2>
-        <div>{"Software Engineer. Based in Palm Coast."}</div>
+        <span>{"Software Engineer. Based in Palm Coast."}</span>
+        <div className={global.mt40}>
+          <a href='https://app.luminpdf.com/viewer/63fdff22ce8b74fe0eee3272' target='_blank'>
+          <span className={styles.resumeDownload}>Download my resume!</span>
+          </a>
+        </div>
       </div>
       <div className={styles.mainImage}>
         <StaticImage 
