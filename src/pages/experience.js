@@ -6,7 +6,7 @@ import Seo from "../components/seo"
 
 const Timeline = () => (
   <Layout>
-    <h1>Experience</h1>
+    <h1>EXPERIENCE</h1>
 
     {/* OnSolve */}
     <div className={styles.company}>

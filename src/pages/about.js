@@ -8,7 +8,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const About = () => (
   <Layout>
-    <h1>About Me</h1>
+    <h1>ABOUT ME</h1>
       <div className={global.flexContainer}>
         <div className={styles.main}>
           <p>I have over eight years of experience in web development, about two years of experience in web application development, and a year experience in mobile application development. I am a reliable self-starter and I take pride in and excel at being able to grasp new concepts quickly and work my way through difficult problems. I believe that while being skilled in the technical side of things is obviously important, effective communication with your peers is important as well. I have plenty of experience assisting clients with technical issues and bridging the gap between the tech-savvy and those who aren't so technologically inclined.</p>
