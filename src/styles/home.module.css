@@ -52,7 +52,7 @@
   padding: 10px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1210px) {
   .main {
     padding-right: 20px;
   }
