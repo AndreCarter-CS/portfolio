@@ -55,6 +55,7 @@
 @media screen and (max-width: 1210px) {
   .main {
     padding-right: 20px;
+    padding-left: 10px;
   }
 
   .mainImage {
